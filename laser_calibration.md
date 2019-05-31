@@ -31,13 +31,13 @@ and setup experiment (no db import, don't delete files) and job, setting z = 330
 	</Sensor>
 </CaptureResult>
 ```
-6. open the phenocenter debug tools, connect to 3d scanner
+8. open the phenocenter debug tools, connect to 3d scanner
 
-7. in cmd run `C:/Files/LemnaTec/PhenoCenter/<version#>/PhenoCenter/Environment.exe DriverTestDialog`
+9. in cmd run `C:/Files/LemnaTec/PhenoCenter/<version#>/PhenoCenter/Environment.exe DriverTestDialog`
 
-8. Select Fraunhofer camera and create a driver
+10. Select Fraunhofer camera and create a driver
 
-9. Run `_Do_Calib_` calibration tool. This should result in `CalibrationResult.calib` in `C:/LemnaTec/3DScanner/CalibratorInput`.  Move this up one level to `C:/LemnaTec/3DScanner` for lemna software to find when merging the point clouds.
+11. Run `_Do_Calib_` calibration tool. This should result in `CalibrationResult.calib` in `C:/LemnaTec/3DScanner/CalibratorInput`.  Move this up one level to `C:/LemnaTec/3DScanner` for lemna software to find when merging the point clouds.
 
 ## Other Notes
 
