@@ -11,12 +11,12 @@ The laser calibration target needs to be scanned at 340 to 140 mm in 10 mm incre
 2. remove imaging deck frame and install calibration target
 
 3. Open phenocenter
-and setup experiment (no db import, don't delete files) and job, setting z = 340 and plant height = 0 in the various settings.
+and setup experiment (no db import, don't delete files) and job, setting z = 340 and y = 700 in the camera settings. Don't go lower than 350 because you will risk hitting the target. Also, you can't use negative plant height so you wn't be able to scan at 20 cm. x=64 seems to work well.
 
 4. Run the job for plant heights 0-220 in 10 mm increments
-	- plantheight 200 mm = 20 cm above the target
-	- plantheight 300 mm = 30 cm above the target
-	- plantheight 400 mm = 40 cm above the target
+	- plantheight 0 mm = 20 cm above the target
+	- plantheight 100 mm = 30 cm above the target
+	- plantheight 200 mm = 40 cm above the target
 
 5. Move the snapshot folders to `C:/LemnaTec/3DScanner/CalibratorInput` and rename each snapshot folder 340 (plantheight = 0) to 140 (highest plantheight). Also unpack each .rawx and the enclosed image.raw file. Save the .png and .ply in the upper most directory for the scan, e.g. `140`.
 
