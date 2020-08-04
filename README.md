@@ -7,4 +7,5 @@ The information in this wiki is meant as an on-going record and to substitute fo
 
 [3D laser calibration](laser_calibration.md)
 [exposure_settings](exposure_settings.md)
+[tray_grabber_calibration](tray_grabber_calibration.md)
 
