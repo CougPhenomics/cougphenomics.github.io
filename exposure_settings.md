@@ -46,7 +46,7 @@ As of early 2020, the LED bars mounted to this camera do not produce light anymo
 
 ## AlliedVision Deep Dive
 
-If you really want to see how all the settings affect the image you can use Vimba Viewer from Allied. However you need to use LemnaTec software to mount the camera and then "end task" for Phenocenter in task manager to release control of the camera without LT putting it away. Then you can access the cameras with full control using Vimba Viewer. I *think* the settings you change in Vimba Viewer will stick until you unmount the camera so be careful of that! I don't know how to change the settings permanently, but probably you could find the path to a camera config file - maybe in hardwareIni.cfg?  I think you can also mount the camera using the teaching tools and then you don't have to End Task because I don't think the Teaching Tools open a connection. It just moves the camera.
+If you really want to see how all the settings affect the image you can use Vimba Viewer from Allied. However you need to use LemnaTec software to mount the camera and then "end task" for Phenocenter in task manager to release control of the camera without LT putting it away. Then you can access the cameras with full control using Vimba Viewer. I *think* the settings you change in Vimba Viewer will stick until you unmount the camera so be careful of that! I don't know how to change the settings permanently, but probably you could find the path to a camera config file - maybe in hardwareIni.cfg?  You can also mount the camera using the teaching tools and then you don't have to End Task because I don't think the Teaching Tools open a connection. It just moves the camera.
 
 ## Walz PSII camera
 
