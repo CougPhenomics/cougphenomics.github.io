@@ -116,12 +116,8 @@ I also tried with and without lens correction and noticed no improvement in the 
 
 
 
-```{python}
+```python
 ## ---- 3D perspective warping with points on pot surface with distorted images
-pcv.plot_image(swir_undist)
-pcv.plot_image(img_undist)
-pcv.plot_image(mask_undist)
-pcv.visualize.pseudocolor(img_undist[:,:,1], mask=mask_undist)
 
 swirpts = [(130,120),(432,64),(424,423),(187,420),(288,210)]
 swirimg2=swirimg.copy()
