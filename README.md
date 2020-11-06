@@ -12,3 +12,5 @@ The information in this wiki is meant as an on-going record and to substitute fo
 [tray grabber calibration](tray_grabber_calibration.md)
 
 [barcode labels](barcode_labels.md)
+
+[camera overlays](camera_overlays.md)
